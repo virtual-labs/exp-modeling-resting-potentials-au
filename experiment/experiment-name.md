@@ -1,1 +1,1 @@
-## Experiment name
+### Modeling resting potentials in Neurous 
