@@ -1,4 +1,4 @@
-In this exercise, we considered the basic principle behind resting potential, i.e., how resting ion channels maintain resting potential and the mathematical models used for studying this mechanism.
+
 
 
 Every electrically excitable cell (e.g., nerve cells ) have the property of separation of charges  across the lipid membrane as a result of a small concentrations of positive and negative ions that are spread over the inner and outer membrane of the cell. This charge separation results in keeping the inside of the cell with a more negative charge and outside of the cell with a more positive charge. Since, lipid bilayer is impermeable to ions, it blocks the diffusion of ions into and out of the membrane. The charge separation across the membrane gives rise to the difference in voltage or electrical potential across the membrane and is called as membrane potential, denoted by Vm.
