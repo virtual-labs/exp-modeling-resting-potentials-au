@@ -1,1 +1,1 @@
-### Modeling resting potentials in Neurous 
+## Modeling resting potentials in Neurous 
