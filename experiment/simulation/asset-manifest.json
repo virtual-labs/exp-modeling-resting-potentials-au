@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7729c9fb.chunk.css",
+    "main.js": "/static/js/main.c071216e.chunk.js",
+    "main.js.map": "/static/js/main.c071216e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b42e95cc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b42e95cc.js.map",
+    "static/css/2.59bcc452.chunk.css": "/static/css/2.59bcc452.chunk.css",
+    "static/js/2.05261208.chunk.js": "/static/js/2.05261208.chunk.js",
+    "static/js/2.05261208.chunk.js.map": "/static/js/2.05261208.chunk.js.map",
+    "static/js/3.2429ddcc.chunk.js": "/static/js/3.2429ddcc.chunk.js",
+    "static/js/3.2429ddcc.chunk.js.map": "/static/js/3.2429ddcc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.59bcc452.chunk.css.map": "/static/css/2.59bcc452.chunk.css.map",
+    "static/css/main.7729c9fb.chunk.css.map": "/static/css/main.7729c9fb.chunk.css.map",
+    "static/js/2.05261208.chunk.js.LICENSE.txt": "/static/js/2.05261208.chunk.js.LICENSE.txt",
+    "static/media/Amritalogo.74a0debe.png": "/static/media/Amritalogo.74a0debe.png",
+    "static/media/App.css": "/static/media/icons-20.cde033c5.eot",
+    "static/media/vlablogo2.00a678a6.jpg": "/static/media/vlablogo2.00a678a6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b42e95cc.js",
+    "static/css/2.59bcc452.chunk.css",
+    "static/js/2.05261208.chunk.js",
+    "static/css/main.7729c9fb.chunk.css",
+    "static/js/main.c071216e.chunk.js"
+  ]
+}
