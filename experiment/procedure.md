@@ -1,7 +1,5 @@
 ### Procedure
 
-### Procedure
-
 . Simulator uses Hodgkin and Huxley equation and provides full accesses to HH parameters, membrane parameters, various ionic concentrations, pharmacological effects, stimulus parameters and Vclamp protocol.
 
 . By default the simulator window will be in current clamp mode, for every reset the mode will reset to current clamp.
