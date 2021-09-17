@@ -1,0 +1,443 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'AU',
+        'phase': 'Testing',
+        'expName': 'MODELING RESTING POTENTIALS IN NEURONS',
+        'expShortName': 'modeling-resting-potentials'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="modeling-resting-potentials">
+    	<meta name="developer-institute" content="AU">
+    	<meta name="learning-unit" content="MODELING RESTING POTENTIALS IN NEURONS">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.6-b/css/style.min.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center">
+            <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in">HOME</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/participating-institutes">PARTNERS</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/contact-us">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+		  <div class="row py-4 px-4 breadcrumbs">
+		  	<div class="title is-4 tools">Tools</div>
+		  	<span class="mx-2">
+		  		<i aria-hidden="true" class="fa fa-angle-right"></i>
+		  	</span>
+		  	<a href="performance-report.html" target="_blank">
+		  		<button class="v-button">Performance Tool</button>
+		  	</a>
+		  </div>
+	  </div>
+          <div class="flex-column">
+            <div id="plugin-bug-report"></div>
+            <div id="plugin-rating"></div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="modeling-resting-potentials-in-neurons">Modeling resting potentials in Neurons</h2>
+          
+            </div>
+              <p>Every electrically excitable cell (e.g., nerve cells ) have the property of separation of charges  across the lipid membrane as a result of a small concentrations of positive and negative ions that are spread over the inner and outer membrane of the cell. This charge separation results in keeping the inside of the cell with a more negative charge and outside of the cell with a more positive charge. Since, lipid bilayer is impermeable to ions, it blocks the diffusion of ions into and out of the membrane. The charge separation across the membrane gives rise to the difference in voltage or electrical potential across the membrane and is called as membrane potential, denoted by Vm.</p>
+          <p>&nbsp;</p>
+          <center><img src="images/rp1.GIF" title=""></center> 
+           Eq(1)
+          
+          <p>Where Vin is the potential inside the cell and Vout is the potential outside the cell, i.e. when the cell is at rest, called resting potential. By convention, taking Vout =0, then Vm = Vin the potential ranges from -60 mV to -70 mV.</p>
+          <p>Electrical signal propagation in neuron involves the movement of charges across the membrane, which causes alterations in the flow of electrical current resulting from the opening and closing of ion channels. The flow of ions, both cations (positively charged) and anions (negatively charged) across the membrane causes the movement of electric charges. The direction of the current flow is dependent on the direction of net movement of positive ions and anions in opposite direction. The net movement of cations or anions into or out of the cell results in alteration of membrane potential (depolarization or hyperpolarization). Thus alteration in charge separation leading to a less negative membrane potential and is called as depolarization and to a more negative membrane potential called as hyperpolarization. These changes in membrane potential (as a result of non-voltage-gated ion channels) are called electrotonic potential / passive response of a membrane. Hyperpolarization responses are always passive. When, depolarization reaches/attains a critical value (i.e. ranges from -50 to -40 mV) called as the threshold, the cell responds actively with the opening of voltage-gated ion channels, thus producing an action potential all-or-none response.</p>
+          <p><strong>The resting membrane potential is determined by resting ion channels</strong></p>
+          <p>Most abundant ions found on either side of the cell membrane are Na+, K+and Cl-.  Na+ and Cl- are more concentrated outside the cell and K+ and organic anions (A-) are more concentrated inside the cell. Table 1.1 shows the distribution of ions inside and outside the membrane of well-studied nerve cell axons of the squid. The salt concentration inside the squid nerve cell is similar to that of salt water. The absolute values of the ionic concentrations for vertebrate nerve cells are two to three folds lower than those for the squid giant axon, but the ratio of the external ion concentration to internal ion concentration is about the same.</p>
+          <p>Table 1.1 Distribution of the major ions of the giant axon of the squid at rest.</p>
+          <p>&nbsp;</p>
+          <center><img src="images/rp2.png" title=""></center> 
+           
+          
+          <p>Ion channels in neuronal membranes are generally divided into two, resting and voltage-gated ion channels. Resting membranes/passive channels are always stay open, but the regulation of voltage-gated channels are dependent upon the voltage fluctuations. Overall selectivity of individual ion species of a membrane is determined by the proportions of the various types of ion channels in the cell that are open. In case of the glial cells, it has a resting potential of about -75 mV. Most of the resting ion channels in the membrane are only permeable to K+ ions. As a result, glial cells have a high concentration of K+ and organic anions on the inside and a high concentration of Na+  and Cl- on the outside.</p>
+          <p>These ionic gradients are responsible for generation of the membrane potential in nerve cells. Since, high concentrations of K+ ions are present inside the cell and the neuronal membrane is selectively permeable to K+,  it diffuses from inside to outside of the cell with the help of the chemical concentration gradient (see Fig 1A). This selective permeability helps in maintaining  the outside of the membrane  with a more positive charge (due to the slight excess of K+) and inside of the cell with a more negative charge (because of the deficit of K+ and slight excess of anions). Since, opposite charges attract each other, the excess positive (outside) and negative (inside) charges arrange on either surface of the membrane.</p>
+          <p>As a result of the continuous flow of K+ ions, more charges will be separated and hence greater will be the potential difference. Since K+ is positively charged, the potential difference starts to oppose the further efflux of K+ ions. Mainly two forces control the movement of K+ ions in and out of the cell: 1) chemical driving force that depends on the concentration gradient (driving K+ outside the cell) and 2) electrical driving force that depends on electrical potential difference across the membrane (driving K+ inside the cell). There will be a point at which equilibrium is established between these two forces. The potential at this point is called as equilibrium potential of potassium Ek. In cells that are permeable only to K+ ions, the Resting potential is determined by Ek .</p>
+          <p>Equilibrium potential for a given ion can be calculated using Nernst equation. This classical thermodynamic principle was derived by the German physical chemist Walter Nernst:</p>
+          <p>Equilibrium potential for K+ ions is given by:</p>
+          <p>&nbsp;</p>
+          <center><img src="images/rp3.GIF" title=""></center>
+          
+          <p>Eq(2)</p>
+          <p>where R is the gas constant, T is the temperature (in degrees Kelvin), z is the valence of the ion, F is the Faraday constant and [K]o and [K]i are the concentrations of K+ ions outside and inside the cell.</p>
+          <p>At 25°C (room temperature), RT/F is 25 mV.
+          So, for converting from natural logarithms to base 10 logarithms, it is multiplied by 2.3, so the Nernst equation can also be written as:</p>
+          <p>&nbsp;</p>
+          <center><img src="images/rp4.GIF" title=""></center>
+           
+          
+          <p>Eq(3)</p>
+          <p> Equilibrium potential of K+ ions concentrations inside and outside the squid axon is given by:</p>
+          <p>&nbsp;</p>
+          <center><img src="images/rp5.GIF" title=""></center>
+          
+          
+          <p>Eq(4)</p>
+          <p>Nernst equation can be used to find the equilibrium potential of any species of ions that are present on both sides of the membrane. The resting membrane potential of a nerve cell is maintained by the continuous diffusion and electrostatic movement of  Na+  and Cl- ions in addition to K+ ions across the membrane, unlike glial cells which are permeable to only K+ ions.</p>
+          <p>Now consider what will happen if resting Na+ channels are also present in the membrane, or in case two or more ions are permeable through the membrane or making the membrane permeable to Na+ ions. Mainly two forces act on Na+  ions to drive into the cell. Since more Na+ ions are concentrated outside the cell than inside, 1) concentration gradient ( Na+ ions drive to move into the cell), 2) Na+ ions also drive into the cell because of negative electrical potential difference across the membrane. The influx of positive charges (i.e. Na+) depolarizes the cell slightly from K+ equilibrium potential (-75 mV).</p>
+          <p>The membrane begins to depolarize from the value of K+ equilibrium potential as an effect of Na+ ions rushing into the cell. The concentration of K+ ions equilibrium gets disturbed, as a result of which there will be a negative electrical force driving K+ into the cell for counteracting the Na+ influx. The more the membrane is depolarized or moves away from the equilibrium potential, the greater the amount of K+ ions are driven out of the cell and thus greater will be the K+ efflux.</p>
+          <p>Finally the membrane potential reaches an equilibrium, when the outward movement of K+ ions equals the inward movement of Na+ ions. This equilibrium point of membrane potential is usually -60 mV which is far from the Na+ equilibrium potential (+55 mV) and slightly more positive than the K+ ions equilibrium potential (-75 mV).</p>
+          <p>Charge separation across the membrane keeps the membrane potential constant, when the cell is at rest. Until the charge separation gets balanced, the membrane potential would vary continuously (Fig 1B). These continuous ion leaks bring Na+ and K+ gradients down; thus reducing the resting membrane potential (Fig 1C).</p>
+          <p>&nbsp;</p>
+          <center><img src="images/rp6.jpg" title=""></center>
+           
+          Figure 1: The resting potential of a cell is determined by relative distribution of different ions with the value of their equilibrium potentials.
+          
+          
+          <p>A. In a resting cell in which only K+ passive channels are present, when K+ ions are in equilibrium , then Vm = EK.</p>
+          <p>B. Consider that Na+ channels along with K+ ion channels depolarize the membrane, because Na+ ions  diffuse into the cell and those influx resulted in to move membrane potential more positive.</p>
+          <p>C. Membrane potential get settled at new resting potential called as steady-state condition, in which neither Na+ nor K+ is in equilibrium but the net flux of charge is null.</p>
+          <p>This dissipation of concentration gradient is prevented by Na+ , K+ pump. The steady membrane potential, when the cell is at rest is maintained by this pump. This pump moves three Na+ inside and two K+ ions out against their concentration gradient by consumption of one ATP.</p>
+          <p>The contribution of chloride ions (Cl-) to the resting potential is ignored even though many nerve cells have resting Cl- channels. Nerve cells do not have any mechanism for active transport of Cl- against concentration gradient. Those cell’s resting potential is determined by K+ and Na+  fluxes because the intracellular concentrations of K+ and Na+  are maintained by the Na+-K+ pump (an active transport). Concentration of Cl- inside the cell is only affected by electrical potential and concentration gradient. Cl- ions reach equilibrium so that ECl is equal to the resting potential and there is no net Cl- flux at rest.</p>
+          <h3 id="determination-of-resting-membrane-potential-as-contribution-of-different-ions-using-goldman-equation">Determination of resting membrane potential as contribution of different ions using Goldman Equation</h3>
+          <p>Nernst equation could only calculate the equilibrium potential of one ion at a time, but Na+  and only ions together will determine the potential across the membrane. Vm (the potential of membrane at rest) lies between ENa and Ek. The determination of membrane potential not only depends upon the concentration of ions, inside and outside the membrane but also on the movement of ions across the membrane. Net flow of ions across the membrane not only depends on one particular ion but also on the concentration of permeability of other ions. In that case, the membrane potential which depends on concentration and ionic permeability is given by Goldman Equation:</p>
+          <p>&nbsp;</p>
+          <center><img src="images/rp7.GIF" title=""></center>
+          
+          <p> Eq(5)</p>
+          <p>Where Vm is the membrane potential (in volts, equivalent to joules / coulomb) , Px  is the permeability of a ion ‘x’ (in meters / second), [x]o is the extracellular concentration of that ion (in moles / cubic meter) , [x]i = the intracellular concentration of that ion (in moles / cubic meter), R is the ideal gas constant (joules per Kelvin / mole), T is the temperature in kelvins and F the Faraday's constant (coulombs / mole).</p>
+          <p>The GHK equation states that, the permeability of a particular ion species depends on its concentration, greater the concentration greater will be its permeability. In 1940’s Alan Hodgkin and Bernard Katz studied the membrane potential using Goldman’s equation. They had measured the variation in membrane potential, while changing the extracellular concentration of Na+, Cl- and K+. They also found that extracellular concentrations of K+ ions has strong effect on resting potential,  Cl- has a moderate effect, and Na+  has little effect.</p>
+          <p>The resting membrane potential in nerve cells is determined primarily by resting channels present in the membrane. At rest, the membrane potential approaches to Nernst potential for K+, the ion to which the membrane is most permeable. The membrane is also permeable to little Na, so an influx of Na+ drives the membrane potential slightly positive to the K+ Nernst potential. At this point K+ ions are no longer in equilibrium because of electrical and chemical driving forces, so K+ diffuse out of the cells. These two passive fluxes are counter-balanced by active fluxes driven by the Na+-K+ pump. The cell spends energy to keep membrane potential at rest.</p>
+          
+          </div>
+        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fa fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fa fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fa fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fa fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+
+      <script src="./assets/js/toggleSidebar.js"></script>
+      
+  
+
+<script type="module" src="https://vjspranav.github.io/vleads-bug-report/client/app.js"></script></body></html>

@@ -1,0 +1,81 @@
+{
+  "version": 2.0,
+  "questions": [
+    
+    {
+      "question": "1. Membrane potential is the: ",
+      "answers": {
+        "a": "voltage difference from inside to outside of the membrane",
+        "b": "voltage difference from outside to inside of the membrane",
+        "c": "voltage outside the membrane",
+        "d": "voltage inside the membrane"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+  
+
+
+    {
+      "question": "2. Na+ and Cl- ions are more concentrated in: ",
+      "answers": {
+        "a": "inside the cell",
+        "b": "outside the cell",
+        "c": "both inside and outside the cell"
+       
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "3. Equilibrium potential for Na+ ion is: ",
+      "answers": {
+        "a": " -75 mV",
+        "b": "+55 mV",
+        "c": "-60 mV",
+        "d": "75 mV"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+
+
+    {
+      "question": "4. Equilibrium potential for K+ ion is: ",
+      "answers": {
+        "a": "-60 mV",
+        "b": "+55 mV",
+        "c": "-75 mV",
+        "d": "-55 mV"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "5. Resting potential of electrically excitable cell is determined by: ",
+      "answers": {
+        "a": "Na+ and Cl- ions",
+        "b": "Na+ and K+ ions",
+        "c": "only K+ ions",
+        "d": "none of the above"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+
+
+  ]
+}
