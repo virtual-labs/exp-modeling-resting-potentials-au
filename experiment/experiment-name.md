@@ -1,1 +1,2 @@
-### Modeling resting potentials in Neurons 
+## Modeling resting potentials in Neurons
+
