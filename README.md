@@ -1,14 +1,14 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b> Biotechnology and Biomedical engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Neuron Simulation Virtual Lab 
+<b> Experiment|     <b> Modeling resting potentials in Neurons
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+This experiment deals with the basic principles behind resting potential, how resting ion channels maintain the resting potential and mathematical models used for studying this mechanism.
 
 <b>Name of Developer | <b> Fill the name of experiment owner here 
 :--|:--|
